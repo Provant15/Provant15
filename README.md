@@ -8,6 +8,3 @@
 ![SQL](https://img.shields.io/badge/SQL-4479A1.svg?&style=for-the-badge&logo=sql&logoColor=white)
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/CSS3-1572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
-
-## Featured Projects
-[PawPal - Raise a loveable red panda, playful dog or adorable cat in this interactive open-sourced discord bot](https://github.com/PawPal-Bot/pawpal)
