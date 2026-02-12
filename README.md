@@ -12,7 +12,7 @@ I specialise in TypeScript/JavaScript ecosystems with a focus on scalable, secur
 
 ## Currently Working On
 
-- **Pixadom** - A cozy 2D social pixel art MMORPG (Purely community management and consultation)
+- **Pixadom** - A cozy 2D social pixel art MMORPG. Contributing to community strategy and technical consultation
 - **OdysseyCraft** - A comprehensive Minecraft server network with custom plugins and Paper-native architecture
 - **Homelab Infrastructure** - Norse themed server cluster with enterprise networking, monitoring, and automation
 
@@ -126,10 +126,5 @@ graph TD
 
 ![GitHub Stats](./profile/stats.svg)
 ![Top Languages](./profile/top-langs.svg)
-
-## How to Reach Me
-
-- Website: [provant.dev](https://provant.dev)
-- Email: [me@provant.dev](mailto:me@provant.dev)
 
 ---
