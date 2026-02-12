@@ -1,0 +1,39 @@
+name: Update README Stats
+
+on:
+  schedule:
+    - cron: "0 0 * * *"
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate stats card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=provant15&show_icons=true&theme=radical&include_all_commits=true&count_private=true
+          path: profile/stats.svg
+          token: ${{ secrets.PAT_1 }}
+
+      - name: Generate top languages card
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=provant15&layout=compact&langs_count=8&theme=radical
+          path: profile/top-langs.svg
+          token: ${{ secrets.PAT_1 }}
+
+      - name: Commit cards
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add profile/
+          git commit -m "chore: update readme stats" || echo "No changes to commit"
+          git push
