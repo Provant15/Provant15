@@ -14,7 +14,7 @@ I specialise in TypeScript/JavaScript ecosystems with a focus on scalable, secur
 
 - **[Pixadom](https://pixadom.com)** - A cozy 2D social pixel art MMORPG. Contributing to community strategy and technical consultation
 - **[OdysseyCraft](https://odysseycraft.net)** - A comprehensive Minecraft server network with custom plugins and Paper-native architecture
-- **[MimDB](https://github.com/MimDB)** - A backend platform offering PostgreSQL, authentication, realtime subscriptions, REST APIs, and object storage, available as both a self-hosted deployment and a managed service.
+- **[MimDB](https://mimdb.dev)** - A backend platform offering PostgreSQL, authentication, realtime subscriptions, REST APIs, and object storage, available as both a self-hosted deployment and a managed service.
 - **Homelab** - Norse themed server cluster with enterprise networking, monitoring, and automation
 
 ## Tech Stack
